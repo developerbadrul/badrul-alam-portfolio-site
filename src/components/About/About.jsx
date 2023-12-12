@@ -1,5 +1,10 @@
 import { Progress } from "flowbite-react";
 import { FaReact } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa6";
+import { SiExpress } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+
+
 import Container from "../Container/Container";
 import Title from "../Title/Title";
 
@@ -24,7 +29,8 @@ const About = () => {
                             />
                         </div>
                         <div>
-                            <div className="text-lg text-white  font-medium dark:text-white flex items-center gap-2"> <span><FaReact /></span><span>Next JS</span></div>
+                            <div className="text-lg text-white  font-medium dark:text-white flex items-center gap-2"> <span><TbBrandNextjs />
+                            </span><span>Next JS</span></div>
                             <Progress
                                 color="pink"
                                 progress={40}
@@ -35,7 +41,8 @@ const About = () => {
                             />
                         </div>
                         <div>
-                            <div className="text-lg text-white  font-medium dark:text-white flex items-center gap-2"> <span><FaReact /></span><span>MongoDB</span></div>
+                            <div className="text-lg text-white  font-medium dark:text-white flex items-center gap-2"> <span><FaDatabase />
+</span><span>MongoDB</span></div>
                             <Progress
                                 color="pink"
                                 progress={60}
@@ -46,7 +53,8 @@ const About = () => {
                             />
                         </div>
                         <div>
-                            <div className="text-lg text-white font-medium dark:text-white flex items-center gap-2"> <span><FaReact /></span><span>Express JS</span></div>
+                            <div className="text-lg text-white font-medium dark:text-white flex items-center gap-2"> <span><SiExpress />
+                            </span><span>Express JS</span></div>
                             <Progress
                                 color="pink"
                                 progress={60}
