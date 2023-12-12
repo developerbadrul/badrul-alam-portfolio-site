@@ -8,7 +8,7 @@ const Navbar = () => {
         { menuname: "contact", pathname: "#contact" }
     ];
     return (
-        <div className="flex justify-around text-[16]">
+        <div className="flex justify-around text-[16] fixed top-0 z-10 bg-white w-full">
             <div id="right-side" className="flex-1 bg-[#12141c] p-6">
                 <ul className="flex gap-10 text-white justify-center">
                     {menus.map(menu => (
@@ -25,7 +25,7 @@ const Navbar = () => {
                         <span className="hover:text-[#e51681]">developer.badrul@gmail.com</span>
                     </a>
                 </div>
-                <div>
+                <div className="border-r-2 border-l-2 border-gray-500 p-2">
                     <a className="flex gap-2 items-center" href="tel:+8801516781817">
                         <span><IoCallSharp /></span>
                         <span className="hover:text-[#e51681]">+88015 1678 1817</span>
@@ -33,14 +33,14 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-3">
                     <span>
-                        <a className="hover:text-[#e51681]" href="#" target="_blank">
+                        <a className="hover:text-[#e51681]" href="https://www.facebook.com/dev.badrul" target="_blank">
                             <FaFacebookSquare />
                         </a>
                     </span>
-                    <span>  <a className="hover:text-[#e51681]" href="#" target="_blank">
+                    <span>  <a className="hover:text-[#e51681]" href="https://www.linkedin.com/in/badrulalamhridoy" target="_blank">
                         <FaLinkedin />
                     </a></span>
-                    <span>  <a className="hover:text-[#e51681]" href="#" target="_blank">
+                    <span>  <a className="hover:text-[#e51681]" href="https://github.com/developerbadrul" target="_blank">
                         <FaGithub />
                     </a></span>
                 </div>
