@@ -11,7 +11,7 @@ const Hero = () => {
         link.click();
     };
     return (
-        <div className=" bg-[#12141c] mt-16">
+        <div className=" bg-[#12141c] mt-16 h-screen">
             <div className="grid grid-cols-2 gap-1 items-center mx-auto w-11/12">
                 <div id="left">
                     <h1 className="text-8xl text-white font-bold">Md Badrul Alam</h1>
@@ -30,7 +30,7 @@ const Hero = () => {
 
                 </div>
                 <div id="right">
-                    <img className="w-8/12" src={Badrul} alt="Md Badrul Alam" />
+                    <img className="w-8/12 mx-auto" src={Badrul} alt="Md Badrul Alam" />
                 </div>
             </div>
         </div>
