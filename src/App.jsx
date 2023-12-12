@@ -12,13 +12,11 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-        <Hero></Hero>
-        <Container>
-          <Services></Services>
-        </Container>
+      <Hero></Hero>
       <Container>
-        <About></About>
+        <Services></Services>
       </Container>
+      <About></About>
       <Container>
         <Works></Works>
       </Container>
