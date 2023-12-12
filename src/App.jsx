@@ -20,9 +20,7 @@ function App() {
       <Container>
         <Works></Works>
       </Container>
-      <Container>
-        <Contact></Contact>
-      </Container>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   )
