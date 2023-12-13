@@ -10,8 +10,8 @@ const Navbar = () => {
         { menuname: 'contact', pathname: 'contact' },
       ];
     return (
-        <div className="flex justify-around text-[16] fixed top-0 z-10 bg-white w-full">
-            <div id="right-side" className="flex-1 bg-[#12141c] p-6">
+        <div className="hidden md:flex justify-around text-[16] fixed top-0 z-10 bg-white w-full">
+            <div id="right-side" className="flex-1 bg-[#12141c] md:p-6">
                 <ul className="flex gap-10 text-white justify-center">
                     {menus.map(menu => (
                         <li key={menu.menuname}>
@@ -46,14 +46,14 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-3">
                     <span>
-                        <a className="hover:text-[#e51681]" href="https://www.facebook.com/dev.badrul" target="_blank">
+                        <a className="hover:text-[#e51681]" rel="noreferrer" href="https://www.facebook.com/dev.badrul" target="_blank">
                             <FaFacebookSquare />
                         </a>
                     </span>
-                    <span>  <a className="hover:text-[#e51681]" href="https://www.linkedin.com/in/badrulalamhridoy" target="_blank">
+                    <span>  <a className="hover:text-[#e51681]" rel="noreferrer" href="https://www.linkedin.com/in/badrulalamhridoy" target="_blank">
                         <FaLinkedin />
                     </a></span>
-                    <span>  <a className="hover:text-[#e51681]" href="https://github.com/developerbadrul" target="_blank">
+                    <span>  <a className="hover:text-[#e51681]" rel="noreferrer" href="https://github.com/developerbadrul" target="_blank">
                         <FaGithub />
                     </a></span>
                 </div>

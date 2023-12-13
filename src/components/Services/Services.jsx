@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div id="services">
             <Title>Services</Title>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 <div className="card w-96 bg-base-100 shadow-xl outline-pink-500">
                     <figure><img src="https://images.unsplash.com/photo-1578496479939-722d9dd1cc5b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shoes" /></figure>
                     <div className="card-body">
